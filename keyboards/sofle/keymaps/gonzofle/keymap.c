@@ -58,8 +58,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  */
 [_RAISE] = LAYOUT(
   _______, _______ , _______ , _______ , _______ , _______,                           _______,  _______ , _______,  _______,  _______, KC_GAME,
-  _______, KC_BTN4 , KC_MS_U , KC_BTN5 , KC_WH_U , KC_INS ,                           KC_PGUP , KC_PRVWD,  KC_UP , KC_NXTWD, KC_DLINE, KC_BSPC,
-  _______, KC_MS_L , KC_MS_D , KC_MS_R , KC_WH_D , KC_CAPS,                           KC_PGDN , KC_LEFT , KC_DOWN, KC_RGHT , KC_DEL  , KC_BSPC,
+  _______, KC_INS  , KC_BTN4 , KC_MS_U , KC_BTN5 , KC_WH_U,                           KC_PGUP , KC_PRVWD,  KC_UP , KC_NXTWD, KC_DLINE, KC_BSPC,
+  _______, KC_CAPS , KC_MS_L , KC_MS_D , KC_MS_R , KC_WH_D,                           KC_PGDN , KC_LEFT , KC_DOWN, KC_RGHT , KC_DEL  , KC_BSPC,
   _______, KC_UNDO , KC_CUT , KC_COPY , KC_PASTE , KC_BTN3,  _______,       _______,  KC_BTN1 , KC_LSTRT, XXXXXXX, KC_LEND , G_RCTL, _______,
                          _______, _______, KC_BTN2, _______, KC_BTN1,       _______, _______, _______, _______, _______
 ),
